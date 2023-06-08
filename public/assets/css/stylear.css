@@ -1,0 +1,83 @@
+
+.member.doctor-abd.aos-init.aos-animate {
+    /* background-color: rgba(238, 127, 158, 0.1); */
+    text-align: justify;
+    padding: 25px;
+}
+.counts .count-box span {
+        float: left;
+        margin-right: 0;
+        
+    }
+
+    .counts .count-box i {
+        float: right;
+    }
+
+    .counts .count-box p {
+        margin-top: 30px;
+    }
+
+    .features .icon-box i {
+        float: right;
+        /* margin: 0 0 0 10px; */
+        margin-left: 10px;
+        
+    }
+
+    .counts .count-box i {
+        float: right;
+        margin-left: 10px;
+    }
+
+    .mod {
+        flex-direction: row-reverse;
+    }
+
+    .departments .nav-link {
+        border-right: 5px solid var(--mainColor);
+        border-left: none;
+    }
+
+    .features .icon-box p {
+        margin-right: 60px;
+    }
+    
+
+
+
+    @media only screen and (max-width: 768px){
+        .mod{
+            flex-direction: column !important;
+        }
+        .mod2 {
+            padding-right: 0;
+        }
+
+        .counts .count-box span {
+            float: right;
+        }
+
+        .appointment-btn {
+            margin: 0 0 0 15px;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .mod{
+            flex-direction: column;
+        }
+
+        .mod2 {
+            padding-right: 0;
+        }
+
+        .counts .count-box span {
+            float: right;
+        }
+
+        .appointment-btn {
+            margin: 0 0 0 15px;
+        }
+    }
+  
